@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Nunana Farms | Consultancy',
-  description: 'Farm Consultancy Service',
+  description: 'Farm Consultancy',
 }
 
 export default function RootLayout({

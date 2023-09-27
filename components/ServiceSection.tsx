@@ -4,10 +4,10 @@ import Image from 'next/image'
 
 const ServiceSection = () => {
   return (
-    <div className='grid sm:grid-cols-3 gap-2 mx-auto w-[95%] max-sm:mb-5 sm:mb-20'>
+    <div className='grid sm:grid-cols-3 gap-2 mx-auto w-[95%] max-sm:mb-5 sm:mb-20 '>
       {carddata.map((card,index)=>(
-        <div key={index} className='hidden sm:flex justify-center relative '>
-          <div className='inline-flex relative'> 
+        <div key={index} className='hidden sm:flex justify-center relative hover:animate-wiggle  '>
+          <div className='inline-flex relative '> 
           <Image src={card.imageurl} height={500} width={500} alt='nav' className='rounded-2xl max-sm:h-30 max-sm:w-30 '/>
            <div className='absolute rounded-2xl inset-0 bg-black opacity-20'/>
           </div>

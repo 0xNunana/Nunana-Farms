@@ -3,7 +3,7 @@ import { headnav } from '@/Util/headnav'
 
 const Header = () => {
   return (
-    <div className='bg-white sticky top-5  rounded-md px-5 py-2 z-30 flex justify-between items-center mx-4'>
+    <div className='bg-white sticky top-0 backdrop-blur-0  rounded-md px-5 py-2 z-30 flex justify-between items-center mx-4'>
 <div>Name</div>
 <div className='hidden md:inline-flex space-x-3'>
 

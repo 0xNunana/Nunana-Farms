@@ -1,6 +1,7 @@
 import Header from '@/components/Header'
 import Info from '@/components/Info'
 import ServiceSection from '@/components/ServiceSection'
+import WaveSVG from '@/components/wave'
 import Image from 'next/image'
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
       
       <Info/>
       <ServiceSection/>
+      <WaveSVG/>
       </div>
       <div className='bg-white min-h-[600px]'>
         others
